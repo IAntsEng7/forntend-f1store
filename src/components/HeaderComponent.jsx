@@ -58,6 +58,11 @@ export default class HeaderComponent extends Component {
                     User
                   </a>
                 </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="/register">
+                    Register Account
+                  </a>
+                </li>
                 {/* <li className="nav-item">
                   <a className="nav-link disabled" href="#">
                     Disabled
