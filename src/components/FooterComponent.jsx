@@ -11,12 +11,10 @@ class FooterComponent extends Component {
       <div>
         <footer className="footer">
           <div>
-            <span className="text-muted">Referenced List</span>
+            <span className="text-info">Referenced List</span>
           </div>
           <div>
-            <span className="text-muted">
-              All rights Reserved 2022 @Kairos{" "}
-            </span>
+            <span className="text-info">All rights Reserved 2022 @Kairos </span>
           </div>
         </footer>
       </div>

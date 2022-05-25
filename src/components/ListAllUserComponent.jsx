@@ -26,7 +26,6 @@ export default class ListAllUserComponent extends Component {
                 <th>UID</th>
                 <th>User Account</th>
                 <th>User Name</th>
-                <th>User Gender</th>
                 <th>User Phone</th>
                 <th>User Email Address</th>
                 <th>Create Date</th>
@@ -39,7 +38,6 @@ export default class ListAllUserComponent extends Component {
                 <tr key={user.uId}>
                   <td>{user.uAccount}</td>
                   <td>{user.uName}</td>
-                  <td>{user.uGender}</td>
                   <td>{user.uPhone}</td>
                   <td>{user.uEmail}</td>
                   <td>{user.createTime}</td>
