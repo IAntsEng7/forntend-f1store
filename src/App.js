@@ -5,6 +5,7 @@ import ListAllUserComponent from "./components/ListAllUserComponent";
 import FooterComponent from "./components/FooterComponent";
 import HomeComponent from "./components/HomeComponent";
 import RegisterUserComponent from "./components/RegisterUserComponent";
+import DriverListComponent from "./components/DriverListComponent";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <Route path="/" exact component={HomeComponent}></Route>
             <Route path="/allUser" component={ListAllUserComponent}></Route>
             <Route path="/register" component={RegisterUserComponent}></Route>
+            <Route path="/driverList" component={DriverListComponent}></Route>
           </Switch>
         </div>
         <FooterComponent />

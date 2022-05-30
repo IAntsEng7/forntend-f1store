@@ -17,6 +17,8 @@ export default class RegisterUserComponent extends Component {
     this.changeUNameHandler = this.changeUNameHandler.bind(this);
     this.changeUPhoneHandler = this.changeUPhoneHandler.bind(this);
     this.changeUEmailHandler = this.changeUEmailHandler.bind(this);
+
+    // Register
     this.saveNewRegister = this.saveNewRegister.bind(this);
   }
 
@@ -51,7 +53,7 @@ export default class RegisterUserComponent extends Component {
     };
     console.log("newRegister" + JSON.stringify(newRegister));
 
-    UserService.saveNewRegister(newRegister).then((result) => {
+    UserService.saveNewRegister(newRegister).then((res) => {
       this.props.history.push("/");
     });
   };
@@ -65,7 +67,7 @@ export default class RegisterUserComponent extends Component {
     return (
       <div>
         <div className="container">
-          <div className="row" margin-top="100px">
+          <div className="row" style={{ marginTop: "10px" }}>
             <div className="card col-md-8 offset-md-2">
               <h3 className="text-center"> Register Your New Account </h3>
               <div className="card-body">
